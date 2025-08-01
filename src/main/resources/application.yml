@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: FathersAdvice
+server:
+  http2:
+    enabled: true
+  port: 8090
+
+advice:
+  json:
+    path: classpath:advice.json
