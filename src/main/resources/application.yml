@@ -6,6 +6,10 @@ server:
     enabled: true
   port: 8090
 
-advice:
-  json:
-    path: classpath:advice.json
+logging:
+  level:
+    senac:
+      father:
+        advice: DEBUG
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} - %msg%n'
